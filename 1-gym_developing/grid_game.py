@@ -180,3 +180,4 @@ if __name__ == '__main__':
     env = GridEnv()
     env.reset()
     env.render()
+    env.close()
